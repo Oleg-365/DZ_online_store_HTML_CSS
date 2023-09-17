@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+}
+body{ 
+    max-width:  1600px;
+}
+
+.container_1 {
+    max-width: 1140px;
+	margin: 0 auto;
+}
+
+.header {
+    max-width: 1600px;
+    background-color: #222222;
+    fill: #222;
+    display: flex;
+    justify-content: center;
+}
+
+.nav_logo_header {
+    margin: 18px 41px 19px 0px;
+    fill: #E8E8E8;
+    background-color: #222222;
+    align-items: center;
+    
+}
+
+.nav_button_1 {
+    margin-top: 28px;
+    margin-right: 859px;
+    margin-bottom: 20px;
+    background-color: #222222;
+    cursor: pointer;
+}
+
+.nav_button_2 {
+    margin-top: 26px;
+    margin-bottom: 20px;
+    background-color: #222222;
+    cursor: pointer;
+}
+
+.nav_button_3 {
+    margin-right: 25px;
+    margin-left: 25px;
+    background-color: #222222;
+    cursor: pointer;
+}
+
+.banner {
+    background: #F1E4E6;
+}
+
+.banner_group {
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.banner_text_1 {
+    color: #222;
+    font-family: Lato;
+    font-size: 48px;
+    font-weight: 900;
+    padding-left: 16px;
+    border-left-width: 12px;
+    border-left-color: #F16D7F;
+    border-left: #F16D7F 12px solid;
+}
+
+.banner_text_2{
+    color: #222;
+    font-family: Lato;
+    font-size: 32px;
+    font-weight: 700;
+    padding-left: 16px;
+    border-left: #F16D7F 12px solid;
+}
+
+.banner_text_3{
+    color: #F16D7F;
+    font-family: Lato;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.background_card_1 {
+    background-image: url(./img/main_page/img_background_woman.png);
+    width: 360px;
+    height: 260px;
+    margin-top: 35px;
+}
+
+.background_card_2 {
+    background-image: url(./img/main_page/img_background_men.png);
+    width: 360px;
+    height: 260px;
+    margin-top: 35px;
+}
+
+.background_card_3 {
+    background-image: url(./img/main_page/img_background_kids.png);
+    width: 360px;
+    height: 260px;
+    margin-top: 35px;
+}
+
+.background_card_4 {
+    background-image: url(./img/main_page/img_background_accesories.png);
+    width: 1140px;
+    height: 180px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.background_shadow_card {
+    background-color: rgba(33, 22, 22, 0.70);
+    width: 360px;
+    height: 260px;
+}
+
+.background_shadow_card_1 {
+    background-color: rgba(33, 22, 22, 0.70);
+    max-width: 1140px;
+    max-height: 180px;
+}
+
+.text_card_1 {
+    color: #FFF;
+    text-align: center;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.text_card_2 {
+    color: #F16D7F;
+    font-family: Lato;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.h1_text_card_1 {
+    text-align: center;
+    padding-top: 105px;
+    padding-bottom: 105px;
+}
+
+.h1_text_card_2 {
+    text-align: center;
+    padding-top: 65px;
+    padding-bottom: 65px;
+}
+
+.text_h1 {
+    color: #222;
+    font-family: Lato;
+    font-size: 30px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 96px;
+}
+
+.text_p {
+    color: #9F9F9F;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 6px;
+    margin-bottom: 48px;
+    text-align: center;
+}
+
+.product_card_text_h2 {
+    color: #000;
+    font-family: Lato;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.product_card_text_p {
+    color: #5D5D5D;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 300;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.product_card_price {
+    color: #F16D7F;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.product_card_text_padding {
+    padding: 24px 16px;
+}
+
+.product_card_location {
+    max-width: 360px;
+}
+
+.product_card_img{
+    max-height: 420px;
+}
+
+.product_card_button {
+    color: #F26376;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 15px 39px 14px;
+    margin-top: 48px;
+    margin-bottom: 60px;
+    border:#F26376 2px solid;
+    background: #FFF;
+}
+
+.product_card_background {
+    background: #FFF;
+}
+
+.local_items {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+.local_button {
+    display: flex;
+    justify-content: center;
+ }
+ .local_items_card {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+ }
