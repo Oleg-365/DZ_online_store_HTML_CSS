@@ -91,6 +91,10 @@ body{
     font-weight: 700;
 }
 
+.img_banner{
+    max-width: 800px;
+}
+
 .background_card_1 {
     background-image: url(./img/main_page/img_background_woman.png);
     width: 360px;
@@ -243,3 +247,180 @@ body{
     gap: 30px;
     justify-content: center;
  }
+
+
+ /* Под планшет */
+ @media (max-width: 1140px) and (min-width: 768px) {
+   
+    .container_1 {
+        max-width: 735px;
+    }
+
+    .header {
+        max-width: 768px;
+
+    }
+    
+    .nav_logo_header {
+        margin: 20px 41px 18px 32px;
+    }
+    
+    .nav_button_1 {
+        margin-top: 27px;
+        margin-right: 424px;
+        margin-bottom: 20px;
+    }
+    
+    .nav_button_2 {
+        margin-top: 27px;
+        margin-bottom: 20px;
+        
+    }
+    
+    .nav_button_3 {
+        margin-right: 25px;
+        margin-left: 25px;
+    }
+    
+    .banner {
+        background: #F1E4E6;
+    }
+    
+    .banner_group {
+        background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+    }
+    
+    .banner_text_1 {
+        font-size: 44px;
+        font-weight: 900;
+        padding-left: 16px;
+        border-left-width: 16px;
+        border-left-color: #F16D7F;
+        border-left: #F16D7F 12px solid;
+    }
+    
+    .banner_text_2 {
+        font-size: 24px;
+        padding-left: 16px;
+        border-left: #F16D7F 12px solid;
+    }
+    
+    .banner_text_3 {
+        font-size: 24px;
+    }
+    
+    .img_banner {
+        max-width: 386px;
+    }
+
+    .background_card_1 {
+        background-image: url(./img/main_page/img_background_woman.png);
+        width: 232px;
+        height: 168px;
+        margin-top: 65px;
+    }
+    
+    .background_card_2 {
+        background-image: url(./img/main_page/img_background_men.png);
+        width: 232px;
+        height: 168px;
+        margin-top: 65px;
+    }
+    
+    .background_card_3 {
+        background-image: url(./img/main_page/img_background_kids.png);
+        width: 232px;
+        height: 168px;
+        margin-top: 65px;
+    }
+    
+    .background_card_4 {
+        background-image: url(./img/main_page/img_background_accesories.png);
+        width: 735px;
+        height: 116px;
+        margin-top: 19px;
+        margin-bottom: 110px;
+    }
+    
+    .background_shadow_card {
+        background-color: rgba(33, 22, 22, 0.70);
+        width: 232px;
+        height: 168px;
+    }
+    
+    .background_shadow_card_1 {
+        background-color: rgba(33, 22, 22, 0.70);
+        max-width: 735px;
+        max-height: 116px;
+    }
+    
+    /* .text_card_1 {
+        color: #FFF;
+        text-align: center;
+        font-family: Lato;
+        font-size: 16px;
+        font-weight: 400;
+    }
+    
+    .text_card_2 {
+        color: #F16D7F;
+        font-family: Lato;
+        font-size: 24px;
+        font-weight: 700;
+    } */
+    
+    .h1_text_card_1 {
+        text-align: center;
+         padding-top: 59px;
+        padding-bottom: 59px;
+    }
+    
+    .h1_text_card_2 {
+        text-align: center;
+        padding-top: 33px;
+        padding-bottom: 33px;
+    }
+    
+    .text_p {
+        margin-top: 3px;
+        margin-bottom: 73px;
+        
+    }
+    
+    .product_card_text_p {
+        padding-top: 13px;
+        padding-bottom: 18px;
+    }
+    
+    .product_card_text_padding {
+        padding: 24px 16px;
+    }
+    
+    .product_card_location {
+        max-width: 360px;
+    }
+    
+    .product_card_img{
+        max-height: 420px;
+        max-width: 360px;
+    }
+    
+    .product_card_button {
+
+        padding: 15px 39px 14px;
+        margin-top: 32px;
+        margin-bottom: 65px;
+    }
+    
+    
+    .local_items {
+        display: flex;
+        gap: 15px;
+        flex-wrap: wrap;
+    }
+     .local_items_card {
+        gap: 19px;
+     }
