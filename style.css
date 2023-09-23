@@ -53,9 +53,9 @@ body{
     cursor: pointer;
 }
 
-/* .banner {
+.banner {
     background: #F1E4E6;
-} */
+}
 
 .banner_group {
     /* background: url(<path-to-image>), lightgray 50% / cover no-repeat; */
