@@ -37,6 +37,7 @@ body{
     margin-bottom: 20px;
     background-color: #222222;
     cursor: pointer;
+    border: none;
 }
 
 .nav_button_2 {
@@ -44,6 +45,7 @@ body{
     margin-bottom: 20px;
     background-color: #222222;
     cursor: pointer;
+    border: none;
 }
 
 .nav_button_3 {
@@ -51,6 +53,7 @@ body{
     margin-left: 25px;
     background-color: #222222;
     cursor: pointer;
+    border: none;
 }
 
 .banner {
@@ -248,6 +251,206 @@ body{
     justify-content: center;
  }
 
+ /* Секция инфо в main */
+.info_forma {
+    background-color: #222224;
+    display: flex;
+    justify-content:center;
+    gap: 30px;
+    
+
+}
+.info_forma_1 {
+    margin-top: 103px;
+}
+
+.info_forma_content_img {
+    
+    display:block;
+    margin:auto;
+}
+
+.info_forma_content_h1 {
+    margin-top: 28px;
+    text-align: center;
+    color: #FBFBFB;
+    font-family: Lato;
+    font-size: 19.96px;
+    font-weight: 400;
+    
+}
+
+.info_forma_content_h1_center {
+    margin-top: 19px;
+    text-align: center;
+    text-align: center;
+    color: #FBFBFB;
+    font-family: Lato;
+    font-size: 19.96px;
+    font-weight: 400;
+}
+
+.info_forma_content_h1_right {
+    margin-top: 25px;
+    text-align: center;
+    text-align: center;
+    color: #FBFBFB;
+    font-family: Lato;
+    font-size: 19.96px;
+    font-weight: 400;
+}
+
+.info_forma_content_p {
+    margin-top: 16px;
+    margin-bottom: 104px;
+    text-align: center;
+    color: #FBFBFB;
+    text-align: center;
+    font-family: Lato;
+    font-size: 13.972px;
+    font-weight: 300;
+}
+
+/* feedback */
+.background_feedback {
+    background-image: url(./img/main_page/backgrond_feedback.png);
+    background-size: 100% 100%;
+}
+
+.background_feedback_swadow {
+    background: rgba(244, 244, 244, 0.70);
+    background-size: 100% 100%;
+}
+
+.feedback_1{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.feedback_2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.feedback_img {
+    fill: url(<path-to-image>), lightgray -24.289px -10.41px / 150.602% 156.627% no-repeat;
+    margin-top: 97px; 
+}
+
+.feedback_p {
+    margin-top: 30px;
+    margin-bottom: 126px;
+    text-align: center;
+    color: #222224;
+    text-align: center;
+    font-family: Lato;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.feedback_p_span {
+    color: #222224;
+    font-family: Lato;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 400;
+}
+
+.feedback_text_input {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+.feedback_input_h1 {
+    color: #222224;
+    text-align: center;
+    font-family: Lato;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 167.2%;
+}
+
+.feedback_input_h2 {
+    color: #222224;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 167.2%;
+}
+
+.block_input{
+    margin-top: 32px;
+    display: flex;
+    align-items: center;
+    }
+.block_input_1 {
+    background-color: #E1E1E1;
+    width: 256px;
+    height: 49px;
+    border-radius: 20px 0px 0px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    
+}
+.block_input_2 {
+    background-color: #F16D7F;
+    width: 100px;
+    height: 49px;
+    border-radius: 0px 30px 30px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.block_input_p_1 {
+    color: #222224;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 400;
+    opacity: 0.671;
+    margin-left: 22px;
+}
+
+.block_input_p_2 {
+    color: #FFF;
+    text-align: center;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 7px 7px 6px 8px;
+    
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+}
+
+/* footer */
+.footer {
+    background-color: #222224;;
+}
+
+.footer_p {
+    color: #FBFBFB;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    
+}
+
+.footer_1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    cursor: pointer;
+}
 
  /* Под планшет */
  @media (max-width: 1140px) and (min-width: 768px) {
@@ -269,17 +472,19 @@ body{
         margin-top: 27px;
         margin-right: 424px;
         margin-bottom: 20px;
+        border: none;
     }
     
     .nav_button_2 {
         margin-top: 27px;
         margin-bottom: 20px;
-        
+        border: none;
     }
     
     .nav_button_3 {
         margin-right: 25px;
         margin-left: 25px;
+        border: none;
     }
     
     .banner {
@@ -415,9 +620,11 @@ body{
  @media (max-width: 768px){
     body {
         max-width: 375px;
-    };
+        margin: 0 auto;
+    }
     .container_1 {
         max-width: 343px;
+        margin: 0 auto;
     }
     
     .header {
@@ -472,8 +679,8 @@ body{
         display: flex;
         align-items: center;
         justify-content: center;
-        margin-top: 148px;
-        margin-bottom: 149px;
+        padding-top: 148px;
+        padding-bottom: 149px;
     }
     
     .banner_text_1 {
@@ -609,6 +816,7 @@ body{
         display: flex;
         gap: 30px;
         justify-content: center;
+        background: #FFF;
     }
     .local_button {
         display: flex;
